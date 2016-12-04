@@ -24,4 +24,5 @@ The REST service must be deployed to a [Standard_A3](https://www.azure.cn/home/f
 The test cases are not available before the final evaluation. When the evaluation starts, the evaluator system sends test cases to the REST endpoint of each team individually. Each team will receive 10 test cases (Q1to Q10). The response time for test case Qi is recorded as Ti(1≤i≤10). The final score is calculated using:
 
 ![score](http://ohn81zx6s.bkt.clouddn.com/score.png)
+
 where Ni is the size of the solution (the total number of correct paths) for Qi , Ki is the total number of paths returned by the REST service, Mi is the number of distinct correct paths returned by the REST service.
